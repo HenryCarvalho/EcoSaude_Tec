@@ -9,25 +9,59 @@
   </head>
   <body>
     <header>
-      <h1><span class="leZoomIn">EcoSaúde Tech</span></h1>
-      <nav>
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#ensino">Ensinar</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
+      <div class="header-top">
+        <img
+          src="../assets/img/logo.png"
+          alt="Logo EcoSaúde Tech"
+          class="logo"
+        />
+        <h1>EcoSaúde Tech</h1>
+        <nav>
+          <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#ensino">Ensinar</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
+    <div id="imageModal" class="modal">
+      <img id="modalImage" src="" alt="Imagem em tela cheia" />
+      <button class="carousel-button prev">&#10094;</button>
+      <button class="carousel-button next">&#10095;</button>
+    </div>
+
     <main>
-      <img
-        src="../assets/img/Plantas.jpeg"
-        alt="Imagem de uma planta"
-        width="760"
-        height="400"
-      />
+      <div class="carousel-container">
+        <div class="carousel-slide">
+          <img src="../assets/img/hortas (1).jpeg" alt="Horta Comunitária 1" />
+          <img src="../assets/img/hortas (2).jpeg" alt="Horta Comunitária 2" />
+          <img src="../assets/img/hortas (3).jpeg" alt="Horta Comunitária 3" />
+          <img src="../assets/img/hortas (5).jpeg" alt="Horta Comunitária 4" />
+          <img src="../assets/img/psul.jpeg" alt="Bairro Psul 1" />
+          <img src="../assets/img/psul1.jpeg" alt="Bairro Psul 2" />
+          <img src="../assets/img/psul2.jpeg" alt="Bairro Psul 3" />
+          <img
+            src="../assets/img/Recolhendo_lixo.png"
+            alt="Mutirão de Limpeza 1"
+          />
+          <img
+            src="../assets/img/Recolhendo_lixo1.png"
+            alt="Mutirão de Limpeza 2"
+          />
+          <img src="../assets/img/Plantas.jpeg" alt="Imagem de uma planta" />
+          <img src="../assets/img/Escola (1).jpeg" alt="Escola 1" />
+          <img src="../assets/img/Escola (2).jpeg" alt="Escola 2" />
+          <img src="../assets/img/Escola (3).jpeg" alt="Escola 3" />
+        </div>
+        <button class="carousel-button prev">&#10094;</button>
+        <button class="carousel-button next">&#10095;</button>
+        <div class="carousel-dots"></div>
+      </div>
       <section id="sobre">
         <h2>Sobre o Projeto</h2>
+        <div class="content-card">
         <p>
           O EcoSaúde Tech é um projeto comunitário que visa promover a saúde e o
           bem-estar através da agricultura sustentável. Aqui, ensinamos a
@@ -49,68 +83,68 @@
           Promover a sustentabilidade e o bem-estar comunitário através de ações
           práticas e inclusivas, integrando:
         </p>
-        <ul>
-          <li>
+        <div class="list-content">
+          <p>
             Hortas comunitárias terapêuticas para segurança alimentar e saúde
             mental.
-          </li>
-          <li>
+          </p>
+          <p>
             Mutirões de limpeza com arte urbana para revitalização de áreas
             críticas.
-          </li>
-          <li>
+          </p>
+          <p>
             Tecnologia acessível com o site EcoSaúde, que facilita denúncias
             ambientais e o agendamento de ações coletivas.
-          </li>
-        </ul>
+          </p>
+        </div>
 
         <h3>Por Que o EcoSaúde Tech?</h3>
         <p>
           Psul, como muitas comunidades periféricas, enfrenta desafios como:
         </p>
-        <ul>
-          <li>Acúmulo de lixo e esgoto a céu aberto.</li>
-          <li>Falta de áreas verdes e espaços de convivência.</li>
-          <li>
+        <div class="list-content">
+          <p>Acúmulo de lixo e esgoto a céu aberto.</p>
+          <p>Falta de áreas verdes e espaços de convivência.</p>
+          <p>
             Doenças relacionadas ao ambiente, como dengue e problemas
             respiratórios.
-          </li>
-        </ul>
+          </p>
+        </div>
         <p>
           Acreditamos que a solução está na união da comunidade, na inovação e
           na educação ambiental.
         </p>
 
         <h3>Nossos Objetivos</h3>
-        <ul>
-          <li>Reduzir o lixo acumulado em 20% até junho de 2025.</li>
-          <li>
+        <div class="list-content">
+          <p>Reduzir o lixo acumulado em 20% até junho de 2025.</p>
+          <p>
             Implantar 5 hortas comunitárias para segurança alimentar e terapia
             ocupacional.
-          </li>
-          <li>
+          </p>
+          <p>
             Capacitar 100 moradores em práticas sustentáveis e saúde preventiva.
-          </li>
-          <li>
+          </p>
+          <p>
             Engajar a comunidade através de mutirões, arte urbana e tecnologia.
-          </li>
-        </ul>
+          </p>
+        </div>
 
         <h3>Impacto Esperado</h3>
-        <ul>
-          <li>
+        <div class="list-content">
+          <p>
             <strong>Ambiental:</strong> Ruas e córregos mais limpos, com redução
             de doenças relacionadas ao lixo.
-          </li>
-          <li>
+          </p>
+          <p>
             <strong>Social:</strong> Fortalecimento dos laços comunitários e
             inclusão de grupos vulneráveis.
-          </li>
-          <li>
+          </p>
+          <p>
             <strong>Econômico:</strong> Geração de renda através da venda de
             hortaliças e reciclagem.
-          </li>
-        </ul>
+          </p>
+        </div>
 
         <h3>Junte-se a Nós!</h3>
         <p>
@@ -130,6 +164,7 @@
 
       <section id="ensino">
         <h2>Como Plantar e Cuidar do Solo</h2>
+        <div class="content-card">
         <h3>1. Preparação do Solo</h3>
         <p>
           Antes de plantar, é importante preparar o solo. Remova pedras e ervas
@@ -151,13 +186,163 @@
           Regue suas plantas diariamente e fique atento a pragas. Utilize
           métodos naturais de controle de pragas sempre que possível.
         </p>
+
+        <h3>Como Criar uma Horta Comunitária?</h3>
+        <p>
+          Criar uma horta comunitária é um processo que exige planejamento,
+          colaboração e comprometimento. O primeiro passo é escolher um local
+          acessível, com boa exposição ao sol e acesso à água, garantindo
+          condições ideais para o cultivo.
+        </p>
+        <p>
+          Em seguida, é essencial reunir um grupo de pessoas engajadas para
+          compartilhar as responsabilidades, desde o planejamento das culturas
+          até as atividades diárias. O preparo do solo também é uma etapa
+          fundamental, e práticas sustentáveis como compostagem e rotação de
+          culturas ajudam a manter a fertilidade e a saúde da terra.
+        </p>
+        <p>
+          Com essas bases estabelecidas, a horta começa a ganhar vida, mas seu
+          sucesso depende do envolvimento contínuo da comunidade. O plantio, a
+          irrigação e a colheita devem ser tarefas colaborativas, promovendo a
+          integração entre os participantes e garantindo que o projeto se
+          mantenha produtivo e sustentável.
+        </p>
+      </div>
+      </section>
+
+      <section id="blog" class="blog-section">
+        <h2>Blog EcoSaúde</h2>
+
+        <div class="blog-card">
+          <h3>Como o lixo acumulado afeta sua saúde?</h3>
+          <p>
+            Você sabia que o lixo acumulado pode ser um grande vilão para a sua
+            saúde? Além de atrair pragas como ratos e baratas, que transmitem
+            doenças, o lixo orgânico em decomposição libera gases tóxicos que
+            podem afetar o sistema respiratório. O acúmulo de plástico e outros
+            resíduos também pode contaminar solos e rios, impactando a qualidade
+            da água que consumimos. A solução? Descartar corretamente e reduzir
+            a produção de lixo no dia a dia!
+          </p>
+        </div>
+
+        <div class="blog-card">
+          <h3>Plantas que purificam o ar em casa</h3>
+          <p>
+            Quer um ar mais puro dentro de casa? Algumas plantas atuam como
+            filtros naturais, removendo toxinas e melhorando a qualidade do ar.
+            As melhores opções são:
+          </p>
+          <div class="plant-list">
+            <p>
+              🌿 <strong>Espada-de-São-Jorge</strong> – Absorve poluentes e
+              libera oxigênio à noite.
+            </p>
+            <p>
+              🌱 <strong>Jiboia</strong> – Filtra substâncias tóxicas e é fácil
+              de cuidar.
+            </p>
+            <p>
+              🌵 <strong>Babosa (Aloe Vera)</strong> – Reduz o nível de
+              poluentes no ar e ainda tem propriedades medicinais.
+            </p>
+            <p>
+              🌾 <strong>Lírio da Paz</strong> – Elimina compostos químicos
+              nocivos presentes em produtos de limpeza.
+            </p>
+          </div>
+          <p>Decore sua casa e cuide da sua saúde ao mesmo tempo!</p>
+        </div>
+
+        <div class="blog-card">
+          <h3>Reutilize garrafas PET em sua horta</h3>
+          <p>
+            Em vez de descartar garrafas PET, que tal transformá-las em vasos
+            para sua horta? 🪴 Basta cortá-las ao meio, fazer pequenos furos
+            para drenagem e preencher com terra. Você pode plantar temperos como
+            manjericão, salsinha e cebolinha, reduzindo o desperdício e
+            garantindo alimentos saudáveis em casa. 🌱♻️
+          </p>
+        </div>
+
+        <div class="blog-card">
+          <h3>Separe o lixo em 5 minutos por dia</h3>
+          <p>
+            A reciclagem pode ser simples e rápida! Reserve 5 minutos do seu dia
+            para separar o lixo:
+          </p>
+          <div class="recycling-list">
+            <p>
+              🟢 <strong>Vidros</strong> – Garrafas e potes devem ser limpos
+              antes do descarte.
+            </p>
+            <p>
+              🔵 <strong>Papéis</strong> – Revistas, caixas de papelão e jornais
+              devem estar secos.
+            </p>
+            <p>
+              🟡 <strong>Plásticos</strong> – Embalagens de alimentos e garrafas
+              PET são recicláveis.
+            </p>
+            <p>
+              🔴 <strong>Metais</strong> – Latas de alumínio e aço podem ser
+              reaproveitadas.
+            </p>
+            <p>
+              🟤 <strong>Orgânicos</strong> – Restos de comida viram adubo para
+              plantas!
+            </p>
+          </div>
+          <p>
+            Com um pequeno esforço diário, você contribui para um mundo mais
+            sustentável! 🌎💚
+          </p>
+        </div>
+
+        <div class="share-section">
+          <p>
+            Gostou das dicas? Compartilhe para que mais pessoas possam fazer a
+            diferença! ♻️✨
+          </p>
+          <div class="social-buttons">
+            <button onclick="shareOnSocial('facebook')">
+              Compartilhar no Facebook
+            </button>
+            <button onclick="shareOnSocial('twitter')">
+              Compartilhar no Twitter
+            </button>
+            <button onclick="shareOnSocial('whatsapp')">
+              Compartilhar no WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
       </section>
 
       <section id="contato">
         <h2>Contatos e Denúncias</h2>
-        <p>
-          Se você tem alguma denúncia ou sugestão, entre em contato conosco:
-        </p>
+        <div class="content-card">
+          <h3>Denuncie Atos Contra o Meio Ambiente! 🌱🚯</h3>
+          <p>
+            Você presenciou alguém jogando lixo na rua, destruindo hortas comunitárias ou prejudicando o meio ambiente? Sua denúncia pode ajudar a manter nossa cidade mais limpa e sustentável!
+          </p>
+          <h3>🔍 O que denunciar?</h3>
+          <div class="recycling-list">
+            <p>✅ Descarte irregular de lixo em vias públicas, terrenos baldios ou rios.</p>
+            <p>✅ Danos a hortas comunitárias e áreas verdes.</p>
+            <p>✅ Queimadas ilegais e poluição ambiental.</p>
+            <p>✅ Desperdício excessivo de água.</p>
+            <p>✅ Qualquer ação que prejudique a natureza e a saúde pública.</p>
+          </div>
+          <h3>📢 Como denunciar?</h3>
+          <p>
+            Envie sua denúncia de forma <strong>anônima e segura</strong> pelo nosso formulário no site. Se possível, inclua fotos, vídeos ou detalhes sobre o local e horário da ocorrência.
+          </p>
+          <p class="share-section">
+            🌍 <strong>Juntos podemos proteger nosso ambiente!</strong> Sua atitude faz a diferença. Denuncie e ajude a construir um futuro mais sustentável! ♻️💚
+          </p>
+        </div>
         <form
           action="mailto:seuemail@exemplo.com"
           method="post"
@@ -172,7 +357,7 @@
           <label for="mensagem">Mensagem:</label>
           <textarea id="mensagem" name="mensagem" required></textarea>
 
-          <button type="submit">Enviar</button>
+          <button type="submit" style="padding: 8px 16px; font-size: 0.9em;">Enviar</button>
         </form>
       </section>
     </main>
